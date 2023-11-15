@@ -1,0 +1,411 @@
+[WaveFileInformation]
+   FileVersion          = 02.00                        
+[General]
+   FlowFile             = run.mdf                      
+   OnlyInputVerify      = false                        
+   SimMode              = stationary                   
+   DirConvention        = nautical                     
+   ReferenceDate        = 2019-07-01                   
+   WindSpeed            =  0.0000000e+000              
+   WindDir              =  0.0000000e+000              
+[Constants]
+   WaterLevelCorrection =  0.0000000e+000              
+   Gravity              =  9.8100004e+000              
+   WaterDensity         =  1.0250000e+003              
+   NorthDir             =  9.0000000e+001              
+   MinimumDepth         =  1.0000001e-001              
+[Processes]
+   GenModePhys          = 3                            
+   Breaking             = true                         
+   BreakAlpha           =  1.0000000e+000              
+   BreakGamma           =  1.5000000e+000              
+   Triads               = true                         
+   TriadsAlpha          =  1.0000000e-001              
+   TriadsBeta           =  2.2000000e+000              
+   BedFriction          = jonswap                      
+   BedFricCoef          =  6.7000002e-002              
+   Diffraction          = true                         
+   DiffracCoef          =  2.0000000e-001              
+   DiffracSteps         = 2                            
+   DiffracProp          = true                         
+   WindGrowth           = false                        
+   WhiteCapping         = off                          
+   Quadruplets          = false                        
+   Refraction           = true                         
+   FreqShift            = true                         
+   WaveForces           = dissipation 3d               
+[Numerics]
+   DirSpaceCDD          =  5.0000000e-001              
+   FreqSpaceCSS         =  5.0000000e-001              
+   RChHsTm01            =  2.0000000e-002              
+   RChMeanHs            =  2.0000000e-002              
+   RChMeanTm01          =  2.0000000e-002              
+   PercWet              =  9.8000000e+001              
+   MaxIter              = 15                           
+[Output]
+   TestOutputLevel      = 0                            
+   TraceCalls           = false                        
+   UseHotFile           = false                        
+   MapWriteInterval     =  3.0000000e+001              
+   WriteCOM             = true                         
+   COMWriteInterval     =  3.0000000e+001              
+   WriteTable           = false                        
+   WriteSpec1D          = false                        
+   WriteSpec2D          = false                        
+[Domain]
+   Grid                 = lv1.grd                      
+   FlowBedLevel         = 2                            
+   FlowWaterLevel       = 2                            
+   FlowVelocity         = 2                            
+   FlowVelocityType     = wave-dependent               
+   FlowWind             = 0                            
+   BedLevel             = lv1.dep                      
+   DirSpace             = circle                       
+   NDir                 = 36                           
+   StartDir             =  0.0000000e+000              
+   EndDir               =  0.0000000e+000              
+   FreqMin              =  5.0000001e-002              
+   FreqMax              =  1.0000000e+000              
+   NFreq                = 24                           
+   Output               = true                         
+[Domain]
+   Grid                 = lv3.grd                      
+   FlowBedLevel         = 2                            
+   FlowWaterLevel       = 2                            
+   FlowVelocity         = 2                            
+   FlowVelocityType     = wave-dependent               
+   FlowWind             = 0                            
+   BedLevel             = lv3.dep                      
+   DirSpace             = circle                       
+   NDir                 = 36                           
+   StartDir             =  0.0000000e+000              
+   EndDir               =  0.0000000e+000              
+   FreqMin              =  5.0000001e-002              
+   FreqMax              =  1.0000000e+000              
+   NFreq                = 24                           
+   NestedInDomain       = 1                            
+   Output               = true                         
+[Boundary]
+   Name                 = W01                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 0                            
+   EndCoordN            = 3                            
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W01.txt                 
+[Boundary]
+   Name                 = W02                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 4                            
+   EndCoordN            = 11                           
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W02.txt                 
+[Boundary]
+   Name                 = W03                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 12                           
+   EndCoordN            = 19                           
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W03.txt                 
+[Boundary]
+   Name                 = W04                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 20                           
+   EndCoordN            = 28                           
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W04.txt                 
+[Boundary]
+   Name                 = W05                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 29                           
+   EndCoordN            = 36                           
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W05.txt                 
+[Boundary]
+   Name                 = W06                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 37                           
+   EndCoordN            = 44                           
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W06.txt                 
+[Boundary]
+   Name                 = W07                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 45                           
+   EndCoordN            = 53                           
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W07.txt                 
+[Boundary]
+   Name                 = W08                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 54                           
+   EndCoordN            = 61                           
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W08.txt                 
+[Boundary]
+   Name                 = W09                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 62                           
+   EndCoordN            = 69                           
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W09.txt                 
+[Boundary]
+   Name                 = W10                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 70                           
+   EndCoordN            = 78                           
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W10.txt                 
+[Boundary]
+   Name                 = W11                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 79                           
+   EndCoordN            = 86                           
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W11.txt                 
+[Boundary]
+   Name                 = W12                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 87                           
+   EndCoordN            = 94                           
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W12.txt                 
+[Boundary]
+   Name                 = W13                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 95                           
+   EndCoordN            = 103                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W13.txt                 
+[Boundary]
+   Name                 = W14                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 104                          
+   EndCoordN            = 111                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W14.txt                 
+[Boundary]
+   Name                 = W15                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 112                          
+   EndCoordN            = 119                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W15.txt                 
+[Boundary]
+   Name                 = W16                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 120                          
+   EndCoordN            = 128                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W16.txt                 
+[Boundary]
+   Name                 = W17                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 129                          
+   EndCoordN            = 136                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W17.txt                 
+[Boundary]
+   Name                 = W18                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 137                          
+   EndCoordN            = 144                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W18.txt                 
+[Boundary]
+   Name                 = W19                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 0                            
+   StartCoordN          = 145                          
+   EndCoordN            = 155                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\W19.txt                 
+[Boundary]
+   Name                 = N01                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 3                            
+   StartCoordN          = 155                          
+   EndCoordN            = 155                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\N01.txt                 
+[Boundary]
+   Name                 = N02                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 4                            
+   EndCoordM            = 11                           
+   StartCoordN          = 155                          
+   EndCoordN            = 155                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\N02.txt                 
+[Boundary]
+   Name                 = N03                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 12                           
+   EndCoordM            = 19                           
+   StartCoordN          = 155                          
+   EndCoordN            = 155                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\N03.txt                 
+[Boundary]
+   Name                 = N04                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 20                           
+   EndCoordM            = 28                           
+   StartCoordN          = 155                          
+   EndCoordN            = 155                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\N04.txt                 
+[Boundary]
+   Name                 = N05                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 29                           
+   EndCoordM            = 36                           
+   StartCoordN          = 155                          
+   EndCoordN            = 155                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\N05.txt                 
+[Boundary]
+   Name                 = N06                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 37                           
+   EndCoordM            = 44                           
+   StartCoordN          = 155                          
+   EndCoordN            = 155                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\N06.txt                 
+[Boundary]
+   Name                 = N07                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 45                           
+   EndCoordM            = 53                           
+   StartCoordN          = 155                          
+   EndCoordN            = 155                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\N07.txt                 
+[Boundary]
+   Name                 = N08                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 54                           
+   EndCoordM            = 61                           
+   StartCoordN          = 155                          
+   EndCoordN            = 155                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\N08.txt                 
+[Boundary]
+   Name                 = N09                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 62                           
+   EndCoordM            = 70                           
+   StartCoordN          = 155                          
+   EndCoordN            = 155                          
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\N09.txt                 
+[Boundary]
+   Name                 = S01                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 0                            
+   EndCoordM            = 3                            
+   StartCoordN          = 0                            
+   EndCoordN            = 0                            
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\S01.txt                 
+[Boundary]
+   Name                 = S02                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 4                            
+   EndCoordM            = 11                           
+   StartCoordN          = 0                            
+   EndCoordN            = 0                            
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\S02.txt                 
+[Boundary]
+   Name                 = S03                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 12                           
+   EndCoordM            = 19                           
+   StartCoordN          = 0                            
+   EndCoordN            = 0                            
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\S03.txt                 
+[Boundary]
+   Name                 = S04                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 20                           
+   EndCoordM            = 28                           
+   StartCoordN          = 0                            
+   EndCoordN            = 0                            
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\S04.txt                 
+[Boundary]
+   Name                 = S05                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 29                           
+   EndCoordM            = 36                           
+   StartCoordN          = 0                            
+   EndCoordN            = 0                            
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\S05.txt                 
+[Boundary]
+   Name                 = S06                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 37                           
+   EndCoordM            = 44                           
+   StartCoordN          = 0                            
+   EndCoordN            = 0                            
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\S06.txt                 
+[Boundary]
+   Name                 = S07                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 45                           
+   EndCoordM            = 53                           
+   StartCoordN          = 0                            
+   EndCoordN            = 0                            
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\S07.txt                 
+[Boundary]
+   Name                 = S08                          
+   Definition           = grid-coordinates             
+   StartCoordM          = 54                           
+   EndCoordM            = 61                           
+   StartCoordN          = 0                            
+   EndCoordN            = 0                            
+   SpectrumSpec         = from file                    
+   Spectrum             = TPAR\S08.txt                 

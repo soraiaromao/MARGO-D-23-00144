@@ -1,0 +1,533 @@
+table-name           'Boundary Section : 1'
+contents             'Uniform   '
+location             'South01             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 2'
+contents             'Uniform   '
+location             'South02             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 3'
+contents             'Uniform   '
+location             'South03             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 4'
+contents             'Uniform   '
+location             'South04             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 5'
+contents             'Uniform   '
+location             'South05             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 6'
+contents             'Uniform   '
+location             'South06             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 7'
+contents             'Uniform   '
+location             'South07             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 8'
+contents             'Uniform   '
+location             'South08             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 9'
+contents             'Uniform   '
+location             'South09             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 10'
+contents             'Uniform   '
+location             'North01             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 11'
+contents             'Uniform   '
+location             'North02             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 12'
+contents             'Uniform   '
+location             'North03             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 13'
+contents             'Uniform   '
+location             'North04             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 14'
+contents             'Uniform   '
+location             'North05             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 15'
+contents             'Uniform   '
+location             'North06             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 16'
+contents             'Uniform   '
+location             'North07             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 17'
+contents             'Uniform   '
+location             'North08             '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 18'
+contents             'Uniform   '
+location             'West01              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 19'
+contents             'Uniform   '
+location             'West02              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 20'
+contents             'Uniform   '
+location             'West03              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 21'
+contents             'Uniform   '
+location             'West04              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 22'
+contents             'Uniform   '
+location             'West05              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 23'
+contents             'Uniform   '
+location             'West06              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 24'
+contents             'Uniform   '
+location             'West07              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 25'
+contents             'Uniform   '
+location             'West08              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 26'
+contents             'Uniform   '
+location             'West09              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 27'
+contents             'Uniform   '
+location             'West10              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 28'
+contents             'Uniform   '
+location             'West11              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 29'
+contents             'Uniform   '
+location             'West12              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 30'
+contents             'Uniform   '
+location             'West13              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 31'
+contents             'Uniform   '
+location             'West14              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 32'
+contents             'Uniform   '
+location             'West15              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 33'
+contents             'Uniform   '
+location             'West16              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 34'
+contents             'Uniform   '
+location             'West17              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 35'
+contents             'Uniform   '
+location             'West18              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 36'
+contents             'Uniform   '
+location             'West19              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 37'
+contents             'Uniform   '
+location             'West20              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 38'
+contents             'Uniform   '
+location             'West21              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 39'
+contents             'Uniform   '
+location             'West22              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 40'
+contents             'Uniform   '
+location             'West23              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
+table-name           'Boundary Section : 41'
+contents             'Uniform   '
+location             'West24              '
+time-function        'non-equidistant'
+reference-time       20190701
+time-unit            'minutes'
+interpolation        'linear'
+parameter            'time                '  unit '[min]'
+parameter            'Sediment sand        end A uniform'       unit '[kg/m3]'
+parameter            'Sediment sand        end B uniform'       unit '[kg/m3]'
+records-in-table     2
+ 1.0080000e+004  0.0000000e+000  1.2000000e+001
+ 5.4720000e+004  0.0000000e+000  1.2000000e+001
